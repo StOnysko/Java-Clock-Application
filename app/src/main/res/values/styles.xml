@@ -1,0 +1,6 @@
+<resources>
+    <style name="CustomRoundedActiveIndicatorStyle">
+        <!-- Використовуємо наш ripple як фоновий drawable -->
+        <item name="android:background">@drawable/bottom_nav_ripple_effect</item>
+    </style>
+</resources>

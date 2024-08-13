@@ -1,0 +1,82 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/background_grey"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/open_sans_bold"
+        android:text="Schedule Timer"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="25sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="16dp"
+        android:background="@drawable/background_rounded_orange"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <NumberPicker
+            android:id="@+id/numpicker_hours"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <NumberPicker
+            android:id="@+id/numpicker_minutes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp" />
+
+        <NumberPicker
+            android:id="@+id/numpicker_seconds"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/orange"
+            android:fontFamily="@font/open_sans_bold"
+            android:text="Cancel"
+            android:textAllCaps="false"
+            android:textSize="20sp" />
+
+        <View
+            android:id="@+id/view3"
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:background="@color/background_grey" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/orange"
+            android:fontFamily="@font/open_sans_bold"
+            android:text="Schedule"
+            android:textAllCaps="false"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+</LinearLayout>
+
+

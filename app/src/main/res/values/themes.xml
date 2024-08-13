@@ -1,0 +1,9 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.CountdownTimerJava" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:statusBarColor">@color/background_grey</item>
+        <item name="android:navigationBarColor">@color/background_grey</item>
+    </style>
+
+    <style name="Theme.CountdownTimerJava" parent="Base.Theme.CountdownTimerJava" />
+</resources>
